@@ -1,0 +1,93 @@
+"Label": {
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+"#bottomNav":{
+    left : 0,
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: 68,
+    backgroundColor: '#FFF',
+},
+"#topBorder":{
+    top: 0,
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: '#CCC',
+    touchEnabled: false
+},
+"#cancelButtonParent":{
+    top: 10,
+    left: 10,
+    width: "45%",
+    height: 48,
+    backgroundColor: '#E6E6E6'
+},
+".cancelButtonBar":{
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: '#CCC',
+    touchEnabled: false
+},
+"#cancelButtonText":{
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    touchEnabled: false,
+    font: {
+        fontFamily: 'Roboto-Regular',
+        fontSize: '20dp'
+    },
+    color: '#333',
+    textAlign: 'center',
+    text: "Cancel",
+},
+"#okButtonParent":{
+    top: 10,
+    right: 10,
+    width: "45%",
+    height: 48,
+    backgroundColor: '#FFDF0F'
+},
+".okButtonBar":{
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: '#BFA70B',
+    touchEnabled: false
+},
+"#okButtonText":{
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    font: {
+        fontFamily: 'Roboto-Regular',
+        fontSize: '20dp'
+    },
+    color: '#333',
+    textAlign: 'center',
+    touchEnabled: false,
+    text: "OK",
+},
+"#bottomBorder":{
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: '#333',
+},
+".yellowButton" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: '#FEDD00',
+    backgroundSelectedColor: '#E4C600'
+},
+".grayButton" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: '#DFDFDF',
+    backgroundSelectedColor: '#C8C8C8'
+}

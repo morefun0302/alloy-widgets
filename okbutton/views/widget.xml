@@ -1,0 +1,16 @@
+<Alloy>
+    <View id="bottomNav">
+        <View id="topBorder"></View>
+        <View id="cancelButtonParent">
+            <Button class="grayButton" id="cancelButton"/>
+            <Label id="cancelButtonText"></Label>
+            <View class="cancelButtonBar"></View>
+        </View>
+        <View id="okButtonParent">
+            <Button class="yellowButton" id="okButton"/>
+            <Label id="okButtonText"></Label>
+            <View class="okButtonBar"></View>
+        </View>
+        <View id="bottomBorder"></View>
+    </View>
+</Alloy>
